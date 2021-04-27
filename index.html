@@ -22,28 +22,80 @@
                 <label>MED - Majestic Education Digital</label>
             </a>
         </div>
-        <div class="container text-center mt-5 mb-5">
+        <div class="container text-center mb-5">
             <div>
                 <div class="row">
-                    <div class="col-md-4"></div>
+                    <!-- <div class="col-md-3"></div> -->
+                    <div class="col-md-4">
+                        <button type="button" id="btnAction" class="btn"
+                            data-bs-toggle="modal" data-bs-target="#modalMajes">
+                            <i class="fa fa-play-circle"></i><br>
+                            MAJESTIC <br>
+                            2021
+                        </button>
+                    </div>
                     <div class="col-md-4">
                         <button type="button" id="btnAction" class="btn"
                             data-bs-toggle="modal" data-bs-target="#modalPres">
-                            <i class="fa fa-play-circle"></i><br>PRESENTACIÓN SECUNDARIA
-                        </button >
+                            <i class="fa fa-play-circle"></i><br>
+                            MAJESTIC <br>
+                            SECUNDARIA
+                        </button>
                     </div>
-                    <div class="col-md-4"></div>
+                    <div class="col-md-4">
+                        <button type="button" id="btnAction" class="btn"
+                            data-bs-toggle="modal" data-bs-target="#modalBlink">
+                            <i class="fa fa-play-circle"></i><br>
+                            MAJESTIC - PLATAFORMA <br>
+                            BLINK LEARNING
+                        </button>
+                    </div>
                 </div>
                 <div class="modal fade" id="modalPres" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                     <div class="modal-dialog modal-dialog-centered modal-xl">
                       <div class="modal-content">
                         <div class="modal-header">
-                          <h5 class="modal-title" id="exampleModalLabel">PRESENTACIÓN SECUNDARIA</h5>
+                          <h5 class="modal-title" id="exampleModalLabel">MAJESTIC SECUNDARIA</h5>
                           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body">
-                            
-                            <embed src="presentacion-secundaria.pdf#navpanes=0&statusbar=0&toolbar=0" type="application/pdf" width="100%" height="550px" />
+                            <embed src="presentacion-secundaria.pdf#navpanes=0&statusbar=0&toolbar=0" 
+                            type="application/pdf" width="100%" height="550px"/>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="modalBlink" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-xl">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">
+                            MAJESTIC - PLATAFORMA BLINK LEARNING
+                          </h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <iframe width="100%" height="550px" 
+                                src="https://www.youtube.com/embed/bnaR2bfUx8U" title="YouTube video player" 
+                                frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+                                allowfullscreen>
+                            </iframe>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="modalMajes" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-xl">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">
+                            MAJESTIC 2021
+                          </h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <embed src="majestic-2021.pdf#navpanes=0&statusbar=0&toolbar=0" 
+                            type="application/pdf" width="100%" height="550px"/>
                         </div>
                       </div>
                     </div>
