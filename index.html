@@ -27,31 +27,32 @@
                 <div class="row">
                     <!-- <div class="col-md-3"></div> -->
                     <div class="col-md-4">
-                        <button type="button" id="btnAction" class="btn"
-                            data-bs-toggle="modal" data-bs-target="#modalMajes">
-                            <i class="fa fa-play-circle"></i><br>
-                            MAJESTIC <br>
-                            2021
-                        </button>
+                        <a type="button" id="btnAction" class="btn"
+                            href="http://majesticeducation-ebook.herokuapp.com/presentacion/book/catalogo-2022-demo-75" 
+                            target="blank">
+                            <!-- data-bs-toggle="modal" data-bs-target="#modalMajes" -->
+                            <i class="fa fa-book"></i><br>
+                            Catálogo 2022
+                        </a>
                     </div>
                     <div class="col-md-4">
-                        <button type="button" id="btnAction" class="btn"
+                        <!-- <button type="button" id="btnAction" class="btn"
                             data-bs-toggle="modal" data-bs-target="#modalPres">
                             <i class="fa fa-play-circle"></i><br>
                             MAJESTIC <br>
                             SECUNDARIA
-                        </button>
+                        </button> -->
                     </div>
                     <div class="col-md-4">
-                        <button type="button" id="btnAction" class="btn"
-                            data-bs-toggle="modal" data-bs-target="#modalBlink">
+                        <a type="button" id="btnAction" class="btn"
+                            href="https://www.youtube.com/channel/UCdD4WzgPZSK-1LtyQpVKc9g/playlists" target="blank">
+                            <!-- data-bs-toggle="modal" data-bs-target="#modalBlink" -->
                             <i class="fa fa-play-circle"></i><br>
-                            MAJESTIC - PLATAFORMA <br>
-                            BLINK LEARNING
-                        </button>
+                            Conoce nuestro fondo editorial
+                        </a>
                     </div>
                 </div>
-                <div class="modal fade" id="modalPres" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <!-- <div class="modal fade" id="modalPres" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                     <div class="modal-dialog modal-dialog-centered modal-xl">
                       <div class="modal-content">
                         <div class="modal-header">
@@ -64,8 +65,8 @@
                         </div>
                       </div>
                     </div>
-                </div>
-                <div class="modal fade" id="modalBlink" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                </div> -->
+                <!-- <div class="modal fade" id="modalBlink" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                     <div class="modal-dialog modal-dialog-centered modal-xl">
                       <div class="modal-content">
                         <div class="modal-header">
@@ -83,13 +84,13 @@
                         </div>
                       </div>
                     </div>
-                </div>
-                <div class="modal fade" id="modalMajes" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                </div> -->
+                <!-- <div class="modal fade" id="modalMajes" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                     <div class="modal-dialog modal-dialog-centered modal-xl">
                       <div class="modal-content">
                         <div class="modal-header">
                           <h5 class="modal-title" id="exampleModalLabel">
-                            MAJESTIC 2021
+                            Catálogo
                           </h5>
                           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
@@ -99,23 +100,42 @@
                         </div>
                       </div>
                     </div>
-                </div>
+                </div> -->
             </div>
             <hr>
             <div>
                 <div class="row">
                     <div class="col-md-4"></div>
                     <div class="col-md-4">
-                        <a id="btnAction" class="btn" href="#">
+                        <button id="btnAction" class="btn"
+                            data-bs-toggle="modal" data-bs-target="#modalDemo">
                             <i class="fa fa-cubes"></i><br>DEMO
-                        </a>
+                        </button>
                     </div>
                     <div class="col-md-4"></div>
                 </div>
-                <p class="mt-5 mb-5">
+                <!-- <p class="mt-5 mb-5">
                     Comunicate al siguiente correo: <b>andrea.marquez@majesticeducacion.com.mx</b><br>
                     para solicitar una clave demo. 
-                </p>
+                </p> -->
+                <div class="modal fade" id="modalDemo" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">
+                            DEMO
+                          </h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p>
+                                Solicita tu código <b>DEMO</b> de nuestros materiales.
+                            </p>
+                            <p>Comunícate al siguiente correo: <b>andrea.marquez@majesticeducacion.com.mx</b></p>
+                        </div>
+                      </div>
+                    </div>
+                </div>
             </div>
         </div>
         <footer>
